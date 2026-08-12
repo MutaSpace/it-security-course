@@ -1,0 +1,12 @@
+Control area,Baseline requirement,Before state,Action taken,Validation evidence,Result,Remaining risk
+Accounts and privileges,,,,,,
+Default credentials,,,,,,
+Patches and updates,,,,,,
+Unnecessary services,,,,,,
+Installed software,,,,,,
+Host firewall,,,,,,
+Logging and auditing,,,,,,
+Antimalware or endpoint protection,,,,,,
+File permissions,,,,,,
+Backup or snapshot,,,,,,
+Validation and rollback,,,,,,

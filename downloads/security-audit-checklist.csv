@@ -1,0 +1,9 @@
+﻿Area,Control or question,Evidence,Status,Risk or gap,Recommended action
+Physical security,Are restricted areas protected and visitor access documented?,,Not reviewed,,
+Asset management,"Are hardware, software, accounts, and data owners recorded?",,Not reviewed,,
+Identity,"Are least privilege, MFA, onboarding, and offboarding controls defined?",,Not reviewed,,
+Network,"Are security zones, filtering, secure protocols, and monitoring appropriate?",,Not reviewed,,
+Endpoints,"Are secure baselines, patching, host firewalls, and logging implemented?",,Not reviewed,,
+Data,"Are classification, encryption, retention, and disposal controls appropriate?",,Not reviewed,,
+Operations,"Are alerts, incidents, changes, backups, and recovery tests documented?",,Not reviewed,,
+Governance,"Are policies, risk decisions, vendors, and exceptions reviewed?",,Not reviewed,,

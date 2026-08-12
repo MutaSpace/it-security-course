@@ -1,1 +1,5 @@
-Asset ID,Asset Name,Asset Type,Owner,Location,Operating System or Version,Data Handled,Business Criticality,Confidentiality Impact,Integrity Impact,Availability Impact,Current Controls,Observed Weakness,Recommended Action
+Asset ID,Asset name,Type,Owner,Location,Classification,Criticality,Current control,Observation
+BF-001,Student records portal,Application,Registrar,Cloud hosted,Restricted,Critical,Password login,MFA status unknown
+BF-002,Staff file share,Data repository,Operations,Internal network,Confidential,High,Group permissions,Ownership list incomplete
+BF-003,Lobby workstation,Endpoint,Front desk,Public lobby,Internal,Medium,Standard account,Screen visible to visitors
+BF-004,Wireless access point,Network device,IT,Main office,Internal,High,WPA enabled,Guest separation not documented

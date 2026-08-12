@@ -1,1 +1,2 @@
-Risk ID,Asset or Process,Threat,Vulnerability,Likelihood 1-5,Impact 1-5,Risk Score,Existing Controls,Recommended Treatment,Owner,Priority,Status
+Risk ID,Risk statement,Evidence,Likelihood,Impact,Priority,Recommended next action
+R-01,Unauthorized access could expose sensitive records because MFA status is unknown.,Asset BF-001 inventory note,,,,
