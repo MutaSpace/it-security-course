@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Cyber lab tools, safety practices, and evidence guidance.">
+      <meta name="theme-color" content="#07111f">
+      <title>Cyber Lab Resources | Information Technology Security</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body data-page="resources">
+      <a class="skip-link" href="#main-content">Skip to main content</a>
+      <div class="announcement" role="status">
+  <span class="pulse-dot" aria-hidden="true"></span>
+  <strong>Operations update:</strong>
+  <span>Mission 01 is active. Complete Security Team Onboarding before the next briefing.</span>
+  <a href="mission-01.html">Open briefing</a>
+</div>
+      <header class="site-header" data-header>
+        <div class="container nav-wrap">
+          <a class="brand" href="index.html" aria-label="Information Technology Security home">
+            <span class="brand-mark" aria-hidden="true">
+  <svg viewBox="0 0 48 48" role="img">
+    <path d="M24 3 42 10v13c0 11.2-7.3 18.3-18 22C13.3 41.3 6 34.2 6 23V10L24 3Z" fill="currentColor" opacity=".2"/>
+    <path d="M24 7.5 38 13v10c0 8.5-5.1 14.3-14 17.8C15.1 37.3 10 31.5 10 23V13l14-5.5Z" fill="none" stroke="currentColor" stroke-width="2.4"/>
+    <path d="M17.5 24.5 22 29l9-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</span>
+            <span class="brand-copy">
+              <strong>IT Security</strong>
+              <small>Cyber Defense Lab</small>
+            </span>
+          </a>
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+            <span class="sr-only">Toggle navigation</span>
+            <span></span><span></span><span></span>
+          </button>
+          <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation" data-nav>
+            <a data-page-link="home" href="index.html">Home</a> <a data-page-link="operations" href="operations.html">Course Operations</a> <a data-page-link="missions" href="missions.html">Mission Path</a> <a data-page-link="portfolio" href="portfolio.html">Portfolio</a> <a data-page-link="resources" href="resources.html" aria-current="page">Resources</a> <a class="nav-cta" data-page-link="mission" href="mission-01.html">Open Mission 01</a>
+          </nav>
+        </div>
+      </header>
+      <main id="main-content">
+        <section class="page-hero">
+  <div class="page-hero-grid" aria-hidden="true"></div>
+  <div class="container page-hero-layout">
+    <div class="page-hero-copy">
+      <p class="page-breadcrumb"><a href="index.html">Course Home</a><span>/</span>Cyber Lab Resources</p>
+      <p class="hero-kicker">Cyber Lab Resources</p>
+      <h1>Use tools with purpose, evidence, and authorization.</h1>
+      <p class="page-hero-lead">The lab is designed for safe practice. Tools support the investigation, but evidence and reasoning determine the conclusion.</p>
+      <div class="page-chip-row"><span>Authorized lab only</span><span>Evidence first</span><span>Explain every action</span></div>
+      <div class="page-actions"><a class="button button-primary" href="#resource-library">Open resource library</a><a class="button button-secondary" href="mission-01.html">Apply the rules</a></div>
+    </div>
+  </div>
+</section>
+<nav class="resource-jump-nav" aria-label="Resource navigation"><div class="container">
+<a href="#lab-safety">Safety</a><a href="#wireshark">Wireshark</a><a href="#nmap">Nmap</a><a href="#event-viewer">Event Viewer</a><a href="#linux-cli">Linux</a><a href="#openssl">OpenSSL</a><a href="#virtual-lab">Virtual Lab</a><a href="#evidence">Reporting</a>
+</div></nav>
+<section class="section section-light" id="resource-library">
+  <div class="container">
+    <div class="section-heading split-heading"><div><p class="section-kicker">Resource library</p><h2>Quick references for course operations.</h2></div><p>Each card identifies what the resource is for and the practices students should follow while using it.</p></div>
+    <div class="resource-detail-grid"><article class="resource-detail-card" id="lab-safety">
+  <div class="resource-code">01</div>
+  <div><h2>Lab safety and scope</h2><p>Rules for authorized use, evidence handling, privacy, and escalation.</p><ul><li>Stay inside the assigned virtual environment</li><li>Use only instructor-provided targets</li><li>Remove real personal data from submissions</li><li>Stop when authorization is unclear</li></ul></div>
+</article><article class="resource-detail-card" id="wireshark">
+  <div class="resource-code">WS</div>
+  <div><h2>Wireshark</h2><p>Use packet captures to inspect conversations, protocols, addresses, timing, and suspicious patterns.</p><ul><li>Identify endpoints and protocols</li><li>Apply display filters</li><li>Follow approved streams</li><li>Save evidence without exposing credentials</li></ul></div>
+</article><article class="resource-detail-card" id="nmap">
+  <div class="resource-code">NM</div>
+  <div><h2>Nmap</h2><p>Use authorized discovery to identify hosts, ports, services, and changes in the isolated lab.</p><ul><li>Confirm the scope first</li><li>Use conservative scan options</li><li>Record the command and timestamp</li><li>Validate findings before reporting</li></ul></div>
+</article><article class="resource-detail-card" id="event-viewer">
+  <div class="resource-code">EV</div>
+  <div><h2>Windows Event Viewer</h2><p>Review authentication, system, application, and security events to support investigations.</p><ul><li>Filter by time and event ID</li><li>Compare normal and suspicious activity</li><li>Export relevant events</li><li>Document timezone and system context</li></ul></div>
+</article><article class="resource-detail-card" id="linux-cli">
+  <div class="resource-code">LX</div>
+  <div><h2>Linux command line</h2><p>Inspect processes, users, permissions, services, files, logs, hashes, and network state.</p><ul><li>Use commands that preserve evidence</li><li>Explain each option used</li><li>Capture output in the report</li><li>Validate changes after hardening</li></ul></div>
+</article><article class="resource-detail-card" id="openssl">
+  <div class="resource-code">OS</div>
+  <div><h2>OpenSSL and hashing tools</h2><p>Practice hashing, integrity verification, encryption, keys, and certificates with non-sensitive lab data.</p><ul><li>Differentiate hashing and encryption</li><li>Protect private keys</li><li>Compare before and after hashes</li><li>Document algorithms and key choices</li></ul></div>
+</article><article class="resource-detail-card" id="virtual-lab">
+  <div class="resource-code">VM</div>
+  <div><h2>Virtual lab</h2><p>Use snapshots and isolated machines to test security changes without affecting school systems.</p><ul><li>Create a checkpoint before major work</li><li>Label virtual machines clearly</li><li>Restore after destructive tests</li><li>Keep host and lab networks separated</li></ul></div>
+</article><article class="resource-detail-card" id="evidence">
+  <div class="resource-code">ER</div>
+  <div><h2>Evidence and reporting</h2><p>Create reports that connect observations, conclusions, actions, validation, and remaining risk.</p><ul><li>Use clear filenames and timestamps</li><li>Caption every screenshot</li><li>Separate facts from assumptions</li><li>Write both technical and executive summaries</li></ul></div>
+</article></div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-heading centered-heading"><p class="section-kicker">Before using a security tool</p><h2>Ask four questions.</h2><p>This decision check should happen before scanning, changing, collecting, or sharing anything.</p></div>
+    <div class="question-grid">
+      <article><span>01</span><h3>Am I authorized?</h3><p>Confirm the target, account, network, time window, and allowed techniques.</p></article>
+      <article><span>02</span><h3>What evidence do I need?</h3><p>Know what must be recorded before a command or configuration change is made.</p></article>
+      <article><span>03</span><h3>What could this affect?</h3><p>Consider availability, privacy, data integrity, shared services, and other teams.</p></article>
+      <article><span>04</span><h3>How will I validate the result?</h3><p>Define what success, failure, rollback, and residual risk will look like.</p></article>
+    </div>
+  </div>
+</section>
+<section class="cta-section page-cta-section">
+  <div class="container cta-panel"><div><p class="section-kicker light-kicker">Put the process to work</p><h2>Begin with evidence, not assumptions.</h2><p>Mission 01 uses inventory, classification, observations, and risk reasoning before any technical changes.</p></div><a class="button button-light" href="mission-01.html">Open Mission 01 <span aria-hidden="true">&rarr;</span></a></div>
+</section>
+
+      </main>
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div>
+            <a class="brand footer-brand" href="index.html">
+              <span class="brand-mark" aria-hidden="true">
+  <svg viewBox="0 0 48 48" role="img">
+    <path d="M24 3 42 10v13c0 11.2-7.3 18.3-18 22C13.3 41.3 6 34.2 6 23V10L24 3Z" fill="currentColor" opacity=".2"/>
+    <path d="M24 7.5 38 13v10c0 8.5-5.1 14.3-14 17.8C15.1 37.3 10 31.5 10 23V13l14-5.5Z" fill="none" stroke="currentColor" stroke-width="2.4"/>
+    <path d="M17.5 24.5 22 29l9-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</span>
+              <span class="brand-copy"><strong>IT Security</strong><small>Cyber Defense Lab</small></span>
+            </a>
+            <p>Information Technology Security<br>Dual-credit cybersecurity course</p>
+          </div>
+          <div class="footer-links">
+            <h3>Course</h3>
+            <a href="operations.html">Course Operations</a>
+            <a href="missions.html">Mission Path</a>
+            <a href="portfolio.html">Portfolio</a>
+          </div>
+          <div class="footer-links">
+            <h3>Operations</h3>
+            <a href="mission-01.html">Current Mission</a>
+            <a href="resources.html">Cyber Lab</a>
+            <a href="mission-01.html#deliverables">Deliverables</a>
+          </div>
+          <div class="footer-contact">
+            <h3>Instructor</h3>
+            <p>Professor Chi Onabolu</p>
+            <p>Update this area with your school-approved contact information.</p>
+          </div>
+        </div>
+        <div class="container footer-bottom">
+          <span>&copy; <span data-year></span> Information Technology Security</span>
+          <span>Authorized users only &bull; Learn ethically &bull; Defend responsibly</span>
+        </div>
+      </footer>
+      <script src="app.js"></script>
+    </body>
+    </html>

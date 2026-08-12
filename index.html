@@ -8,19 +8,19 @@
   <title>Information Technology Security | Course Home</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page="home">
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <div class="announcement" role="status">
-    <span class="pulse-dot" aria-hidden="true"></span>
-    <strong>Operations update:</strong>
-    <span>Mission 01 is active. Complete Security Team Onboarding before the next briefing.</span>
-    <a href="#current-mission">View mission</a>
-  </div>
+  <span class="pulse-dot" aria-hidden="true"></span>
+  <strong>Operations update:</strong>
+  <span>Mission 01 is active. Complete Security Team Onboarding before the next briefing.</span>
+  <a href="mission-01.html">Open briefing</a>
+</div>
 
   <header class="site-header" data-header>
     <div class="container nav-wrap">
-      <a class="brand" href="#top" aria-label="Information Technology Security home">
+      <a class="brand" href="index.html" aria-label="Information Technology Security home">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 48 48" role="img">
             <path d="M24 3 42 10v13c0 11.2-7.3 18.3-18 22C13.3 41.3 6 34.2 6 23V10L24 3Z" fill="currentColor" opacity=".2"/>
@@ -40,12 +40,12 @@
       </button>
 
       <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation" data-nav>
-        <a class="active" href="#top">Home</a>
-        <a href="#operations">Operations</a>
-        <a href="#pathway">Mission Path</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#resources">Resources</a>
-        <a class="nav-cta" href="#current-mission">Open Mission Console</a>
+        <a data-page-link="home" href="index.html" aria-current="page">Home</a>
+        <a data-page-link="operations" href="operations.html">Course Operations</a>
+        <a data-page-link="missions" href="missions.html">Mission Path</a>
+        <a data-page-link="portfolio" href="portfolio.html">Portfolio</a>
+        <a data-page-link="resources" href="resources.html">Resources</a>
+        <a class="nav-cta" data-page-link="mission" href="mission-01.html">Open Mission 01</a>
       </nav>
     </div>
   </header>
@@ -70,11 +70,11 @@
             Every unit is built around a real-world mission, not just a chapter.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#current-mission">
+            <a class="button button-primary" href="mission-01.html">
               Enter the mission console
               <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <a class="button button-secondary" href="#operations">Explore the course</a>
+            <a class="button button-secondary" href="operations.html">Explore the course</a>
           </div>
           <dl class="hero-stats" aria-label="Course highlights">
             <div><dt>16</dt><dd>weekly missions</dd></div>
@@ -184,7 +184,7 @@
           <p class="section-kicker light-kicker">How every class works</p>
           <h2>Brief. Build. Break down. Defend.</h2>
           <p>Each class period follows the same operational rhythm so you can focus on solving the problem.</p>
-          <a class="text-link" href="#current-mission">See the current mission <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="mission-01.html">See the current mission <span aria-hidden="true">→</span></a>
         </div>
         <ol class="rhythm-steps">
           <li><span>01</span><div><h3>Mission briefing</h3><p>Receive the scenario, evidence, goals, and rules of engagement.</p></div></li>
@@ -264,7 +264,7 @@
                   <li>Submit an initial risk-priority recommendation</li>
                 </ul>
               </div>
-              <a class="button button-primary" href="#deliverables">Review deliverables</a>
+              <a class="button button-primary" href="mission-01.html#deliverables">Open full mission briefing</a>
             </div>
           </article>
 
@@ -339,28 +339,49 @@
           <h2>Your organization is waiting.</h2>
           <p>Open Mission 01, meet your analyst team, and begin the security baseline.</p>
         </div>
-        <a class="button button-light" href="#current-mission">Begin Mission 01 <span aria-hidden="true">→</span></a>
+        <a class="button button-light" href="mission-01.html">Begin Mission 01 <span aria-hidden="true">→</span></a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <a class="brand footer-brand" href="#top">
-          <span class="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 48 48"><path d="M24 3 42 10v13c0 11.2-7.3 18.3-18 22C13.3 41.3 6 34.2 6 23V10L24 3Z" fill="currentColor" opacity=".2"/><path d="M24 7.5 38 13v10c0 8.5-5.1 14.3-14 17.8C15.1 37.3 10 31.5 10 23V13l14-5.5Z" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M17.5 24.5 22 29l9-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </span>
-          <span class="brand-copy"><strong>IT Security</strong><small>Cyber Defense Lab</small></span>
-        </a>
-        <p>Information Technology Security<br>Dual-credit cybersecurity course</p>
-      </div>
-      <div class="footer-links"><h3>Course</h3><a href="#operations">Overview</a><a href="#pathway">Mission Path</a><a href="#portfolio">Portfolio</a></div>
-      <div class="footer-links"><h3>Operations</h3><a href="#current-mission">Current Mission</a><a href="#resources">Cyber Lab</a><a href="#deliverables">Deliverables</a></div>
-      <div class="footer-contact"><h3>Instructor</h3><p>Professor Chi Agwu</p><p>Reach out on Canvas</p><a href="mailto:chidinma.agwu@hccs.edu">chidinma.agwu@hccs.edu</a></div>
-    </div>
-    <div class="container footer-bottom"><span>© <span data-year></span> Information Technology Security</span><span>Authorized users only • Learn ethically • Defend responsibly</span></div>
-  </footer>
+        <div class="container footer-grid">
+          <div>
+            <a class="brand footer-brand" href="index.html">
+              <span class="brand-mark" aria-hidden="true">
+  <svg viewBox="0 0 48 48" role="img">
+    <path d="M24 3 42 10v13c0 11.2-7.3 18.3-18 22C13.3 41.3 6 34.2 6 23V10L24 3Z" fill="currentColor" opacity=".2"/>
+    <path d="M24 7.5 38 13v10c0 8.5-5.1 14.3-14 17.8C15.1 37.3 10 31.5 10 23V13l14-5.5Z" fill="none" stroke="currentColor" stroke-width="2.4"/>
+    <path d="M17.5 24.5 22 29l9-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</span>
+              <span class="brand-copy"><strong>IT Security</strong><small>Cyber Defense Lab</small></span>
+            </a>
+            <p>Information Technology Security<br>Dual-credit cybersecurity course</p>
+          </div>
+          <div class="footer-links">
+            <h3>Course</h3>
+            <a href="operations.html">Course Operations</a>
+            <a href="missions.html">Mission Path</a>
+            <a href="portfolio.html">Portfolio</a>
+          </div>
+          <div class="footer-links">
+            <h3>Operations</h3>
+            <a href="mission-01.html">Current Mission</a>
+            <a href="resources.html">Cyber Lab</a>
+            <a href="mission-01.html#deliverables">Deliverables</a>
+          </div>
+          <div class="footer-contact">
+            <h3>Instructor</h3>
+            <p>Professor Chi Onabolu</p>
+            <p>Update this area with your school-approved contact information.</p>
+          </div>
+        </div>
+        <div class="container footer-bottom">
+          <span>&copy; <span data-year></span> Information Technology Security</span>
+          <span>Authorized users only &bull; Learn ethically &bull; Defend responsibly</span>
+        </div>
+      </footer>
 
   <script src="app.js"></script>
 </body>

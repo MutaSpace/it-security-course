@@ -1,30 +1,41 @@
-# Information Technology Security Homepage
+# Information Technology Security Course Website
 
-A responsive, student-facing homepage for a hands-on dual-credit cybersecurity course aligned to CompTIA Security+.
+This is a static, multi-page course website designed for GitHub Pages. No build system is required.
 
-## Files
+## Main pages
 
-- `index.html`: page structure and course content
-- `styles.css`: responsive visual design
-- `app.js`: mobile navigation, mission-phase tabs, and active-section highlighting
+- `index.html` - Course homepage
+- `operations.html` - Class workflow, roles, differentiation, and assessment
+- `missions.html` - The full 16-week mission path
+- `mission-01.html` - Complete student briefing for Mission 01
+- `portfolio.html` - Student portfolio expectations and artifact map
+- `resources.html` - Cyber lab tools, safety, and evidence guidance
+- `404.html` - Custom GitHub Pages error page
 
-## Open locally
+## Mission 01 downloads
 
-Open `index.html` in a modern web browser. No build step is required.
+The `downloads` folder includes:
 
-The page uses system fonts and works fully offline.
+- Asset inventory CSV
+- Risk register CSV
+- Printer-friendly student worksheet
 
-## Customize first
+## Publish with GitHub Pages
 
-Search `index.html` for the following placeholders:
+1. Upload every file and folder in this directory to the root of your repository.
+2. Open repository Settings, then Pages.
+3. Select Deploy from a branch.
+4. Select the `main` branch and `/(root)` folder.
+5. Save and wait for the deployment to complete.
 
-- `Professor Chi Onabolu`
-- `Course contact information`
-- `instructor@example.edu`
-- `AUG 2026`
+## Important customization
 
-You can also update the announcement bar, current mission, mission progress, and weekly mission details directly in the HTML.
+Before sharing the site, update:
 
-## Publish
+- Instructor contact information in the footer
+- Mission dates and due dates
+- School or college name
+- LMS links, if used
+- Any local course policies
 
-The folder can be published as a static site through GitHub Pages, Netlify, an LMS page that accepts HTML/CSS/JavaScript, or a school web server.
+Do not publish student names, grades, credentials, private links, answer keys, or real student data.
