@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Information Technology Security, a hands-on dual-credit cybersecurity course aligned to CompTIA Security+.">
+  <meta name="theme-color" content="#07111f">
+  <title>Information Technology Security | Course Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="announcement" role="status">
+    <span class="pulse-dot" aria-hidden="true"></span>
+    <strong>Operations update:</strong>
+    <span>Mission 01 is active. Complete Security Team Onboarding before the next briefing.</span>
+    <a href="#current-mission">View mission</a>
+  </div>
+
+  <header class="site-header" data-header>
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Information Technology Security home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img">
+            <path d="M24 3 42 10v13c0 11.2-7.3 18.3-18 22C13.3 41.3 6 34.2 6 23V10L24 3Z" fill="currentColor" opacity=".2"/>
+            <path d="M24 7.5 38 13v10c0 8.5-5.1 14.3-14 17.8C15.1 37.3 10 31.5 10 23V13l14-5.5Z" fill="none" stroke="currentColor" stroke-width="2.4"/>
+            <path d="M17.5 24.5 22 29l9-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>IT Security</strong>
+          <small>Cyber Defense Lab</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation" data-nav>
+        <a class="active" href="#top">Home</a>
+        <a href="#operations">Operations</a>
+        <a href="#pathway">Mission Path</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#resources">Resources</a>
+        <a class="nav-cta" href="#current-mission">Open Mission Console</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span>Dual Credit</span>
+            <span>Security+ Aligned</span>
+            <span>Hands-On</span>
+          </div>
+          <p class="hero-kicker">Welcome to the security operations center</p>
+          <h1>Learn cybersecurity by <span>doing the work.</span></h1>
+          <p class="hero-lead">
+            Protect systems. Investigate threats. Secure data. Respond to incidents.
+            Every unit is built around a real-world mission, not just a chapter.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#current-mission">
+              Enter the mission console
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="button button-secondary" href="#operations">Explore the course</a>
+          </div>
+          <dl class="hero-stats" aria-label="Course highlights">
+            <div><dt>16</dt><dd>weekly missions</dd></div>
+            <div><dt>5</dt><dd>operational phases</dd></div>
+            <div><dt>1</dt><dd>capstone defense</dd></div>
+          </dl>
+        </div>
+
+        <div class="console-shell" aria-label="Sample security operations dashboard">
+          <div class="console-topbar">
+            <div class="window-controls" aria-hidden="true"><span></span><span></span><span></span></div>
+            <span>SECURITY_OPERATIONS_CONSOLE</span>
+            <span class="secure-tag"><span></span> SECURE</span>
+          </div>
+          <div class="console-body">
+            <div class="console-heading">
+              <div>
+                <span class="mono-label">ACTIVE ASSIGNMENT</span>
+                <h2>Mission 01</h2>
+              </div>
+              <span class="status-chip">IN PROGRESS</span>
+            </div>
+            <div class="mission-card-main">
+              <span class="mission-number">01</span>
+              <div>
+                <p class="mission-overline">SECURITY TEAM ONBOARDING</p>
+                <h3>Establish the baseline</h3>
+                <p>Inventory the environment, identify critical assets, and document the organization’s first security priorities.</p>
+              </div>
+            </div>
+            <div class="progress-block">
+              <div class="progress-meta"><span>Mission readiness</span><strong>35%</strong></div>
+              <div class="progress-track"><span style="width: 35%"></span></div>
+            </div>
+            <div class="console-grid">
+              <div class="console-metric"><span>Open tickets</span><strong>04</strong><small>2 high priority</small></div>
+              <div class="console-metric"><span>Assets found</span><strong>18</strong><small>3 unclassified</small></div>
+              <div class="console-metric"><span>Risk level</span><strong class="risk-text">Elevated</strong><small>Action required</small></div>
+            </div>
+            <div class="terminal" aria-label="Sample terminal output">
+              <div><span class="terminal-prompt">analyst@brightfuture:~$</span> scan --scope internal</div>
+              <div class="terminal-response">[+] Environment discovery complete</div>
+              <div class="terminal-response warning">[!] Unmanaged devices detected: 3</div>
+              <div class="terminal-response cursor-line">_</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Course focus areas">
+      <div class="container trust-grid">
+        <span>Network defense</span>
+        <span>Threat analysis</span>
+        <span>Secure architecture</span>
+        <span>Incident response</span>
+        <span>Risk management</span>
+      </div>
+    </section>
+
+    <section class="section section-light" id="operations">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="section-kicker">Course overview</p>
+            <h2>You are not just taking a class.<br>You are joining a security team.</h2>
+          </div>
+          <p>
+            This course provides instruction in security for network hardware, software, and data,
+            including physical security, backup procedures, security tools, encryption, and protection
+            from malicious software. Concepts are learned through practical missions aligned to CompTIA Security+.
+          </p>
+        </div>
+
+        <div class="outcome-grid">
+          <article class="outcome-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3 20 6v6c0 5-3.2 8.2-8 10-4.8-1.8-8-5-8-10V6l8-3Z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></svg>
+            </div>
+            <span>01</span><h3>Defend</h3><p>Harden systems, secure networks, manage access, and apply layered security controls.</p>
+          </article>
+          <article class="outcome-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 5 5M10.5 8v5M8 10.5h5"/></svg>
+            </div>
+            <span>02</span><h3>Investigate</h3><p>Analyze alerts, logs, traffic, vulnerabilities, and evidence to determine what happened.</p>
+          </article>
+          <article class="outcome-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 19h16M6 16l3-4 3 2 5-7 2 2"/><circle cx="6" cy="16" r="1"/><circle cx="9" cy="12" r="1"/><circle cx="12" cy="14" r="1"/><circle cx="17" cy="7" r="1"/></svg>
+            </div>
+            <span>03</span><h3>Analyze</h3><p>Prioritize risk, compare controls, document findings, and make evidence-based decisions.</p>
+          </article>
+          <article class="outcome-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 19h10M9 22h6M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Z"/><path d="M9.5 10.5 11 12l3.5-4"/></svg>
+            </div>
+            <span>04</span><h3>Respond</h3><p>Contain incidents, recover operations, communicate clearly, and improve future defenses.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section class-rhythm">
+      <div class="container rhythm-layout">
+        <div class="rhythm-copy">
+          <p class="section-kicker light-kicker">How every class works</p>
+          <h2>Brief. Build. Break down. Defend.</h2>
+          <p>Each class period follows the same operational rhythm so you can focus on solving the problem.</p>
+          <a class="text-link" href="#current-mission">See the current mission <span aria-hidden="true">→</span></a>
+        </div>
+        <ol class="rhythm-steps">
+          <li><span>01</span><div><h3>Mission briefing</h3><p>Receive the scenario, evidence, goals, and rules of engagement.</p></div></li>
+          <li><span>02</span><div><h3>Just-in-time lesson</h3><p>Learn the concepts and techniques needed for the mission.</p></div></li>
+          <li><span>03</span><div><h3>Security operation</h3><p>Configure, test, investigate, document, and work with your team.</p></div></li>
+          <li><span>04</span><div><h3>Analyst debrief</h3><p>Defend your conclusions and connect the work to Security+.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section pathway-section" id="pathway">
+      <div class="container">
+        <div class="section-heading centered-heading">
+          <p class="section-kicker">Semester mission path</p>
+          <h2>Five phases. One secure organization.</h2>
+          <p>As the semester progresses, the environment becomes more complex and the missions become less guided.</p>
+        </div>
+
+        <div class="phase-tabs" role="tablist" aria-label="Course phases">
+          <button class="phase-tab active" type="button" role="tab" aria-selected="true" aria-controls="phase-panel" data-phase="0"><span>01</span> Discover</button>
+          <button class="phase-tab" type="button" role="tab" aria-selected="false" aria-controls="phase-panel" data-phase="1"><span>02</span> Protect</button>
+          <button class="phase-tab" type="button" role="tab" aria-selected="false" aria-controls="phase-panel" data-phase="2"><span>03</span> Detect</button>
+          <button class="phase-tab" type="button" role="tab" aria-selected="false" aria-controls="phase-panel" data-phase="3"><span>04</span> Respond</button>
+          <button class="phase-tab" type="button" role="tab" aria-selected="false" aria-controls="phase-panel" data-phase="4"><span>05</span> Lead</button>
+        </div>
+
+        <article class="phase-panel" id="phase-panel" role="tabpanel" aria-live="polite">
+          <div class="phase-index" data-phase-index>01</div>
+          <div class="phase-content">
+            <span class="phase-label" data-phase-label>PHASE 01</span>
+            <h3 data-phase-title>Discover the environment</h3>
+            <p data-phase-description>Learn how security teams identify assets, classify information, map networks, and determine what must be protected first.</p>
+            <div class="phase-tags" data-phase-tags>
+              <span>Security controls</span><span>Asset inventory</span><span>Physical security</span><span>Network mapping</span>
+            </div>
+          </div>
+          <div class="phase-missions">
+            <p>Featured missions</p>
+            <ul data-phase-missions>
+              <li><span>01</span> Security Team Onboarding</li>
+              <li><span>02</span> Asset Discovery</li>
+              <li><span>03</span> Network Redesign</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section mission-section" id="current-mission">
+      <div class="container">
+        <div class="mission-header">
+          <div>
+            <p class="section-kicker light-kicker">Current operation</p>
+            <h2>Mission 01: Security Team Onboarding</h2>
+          </div>
+          <div class="mission-state"><span></span> Active mission</div>
+        </div>
+
+        <div class="mission-layout">
+          <article class="briefing-card">
+            <div class="briefing-top">
+              <span>CONFIDENTIAL // STUDENT ANALYST</span>
+              <span>AUG 2026</span>
+            </div>
+            <div class="briefing-body">
+              <p class="briefing-label">Situation report</p>
+              <h3>BrightFuture Learning Center has hired your team to assess its security posture.</h3>
+              <p>
+                The organization has grown quickly, but its technology inventory is incomplete and no one agrees on which systems or data are most critical. Your team must establish a trustworthy baseline before security improvements can begin.
+              </p>
+              <div class="briefing-objectives">
+                <h4>Mission objectives</h4>
+                <ul>
+                  <li>Identify hardware, software, users, and data assets</li>
+                  <li>Classify assets by sensitivity and business importance</li>
+                  <li>Recognize administrative, technical, physical, and operational controls</li>
+                  <li>Submit an initial risk-priority recommendation</li>
+                </ul>
+              </div>
+              <a class="button button-primary" href="#deliverables">Review deliverables</a>
+            </div>
+          </article>
+
+          <aside class="mission-sidebar" id="deliverables">
+            <div class="side-card">
+              <div class="side-card-heading"><span>Required evidence</span><strong>4 items</strong></div>
+              <ul class="check-list">
+                <li><span aria-hidden="true">✓</span> Completed asset inventory</li>
+                <li><span aria-hidden="true">✓</span> Data-classification decisions</li>
+                <li><span aria-hidden="true">✓</span> Physical security observations</li>
+                <li><span aria-hidden="true">✓</span> One-paragraph executive summary</li>
+              </ul>
+            </div>
+            <div class="side-card">
+              <div class="side-card-heading"><span>Security+ connections</span><strong>Cross-domain</strong></div>
+              <div class="objective-pills"><span>1.1 Controls</span><span>3.3 Data</span><span>4.2 Assets</span><span>5.1 Governance</span></div>
+            </div>
+            <div class="side-card analyst-tip">
+              <span class="tip-icon" aria-hidden="true">!</span>
+              <div><strong>Analyst tip</strong><p>Do not assume the most expensive device is the most critical asset. Consider what would happen if the asset became unavailable, altered, or exposed.</p></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="portfolio">
+      <div class="container portfolio-layout">
+        <div class="portfolio-copy">
+          <p class="section-kicker">Your evidence of skill</p>
+          <h2>Build a cybersecurity portfolio while you learn.</h2>
+          <p>Every major mission creates a professional artifact that demonstrates what you can do, how you think, and how you communicate.</p>
+          <div class="portfolio-note">
+            <span aria-hidden="true">↗</span>
+            <p><strong>By the final week:</strong> your portfolio will document a complete security assessment, incident response, and executive briefing.</p>
+          </div>
+        </div>
+        <div class="artifact-stack" aria-label="Portfolio artifact examples">
+          <article class="artifact-card artifact-one"><span>WEEK 03</span><h3>Secure Network Diagram</h3><p>Architecture • Segmentation • Controls</p><div class="mini-diagram" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></article>
+          <article class="artifact-card artifact-two"><span>WEEK 08</span><h3>Vulnerability Assessment</h3><p>Evidence • Risk • Remediation</p><div class="mini-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></div></article>
+          <article class="artifact-card artifact-three"><span>WEEK 12</span><h3>Incident Report</h3><p>Timeline • Response • Lessons Learned</p><div class="mini-lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tools-section" id="resources">
+      <div class="container">
+        <div class="section-heading split-heading compact-heading">
+          <div><p class="section-kicker light-kicker">Cyber lab</p><h2>Tools you will use</h2></div>
+          <p>Tools support the investigation, but evidence and reasoning determine the conclusion.</p>
+        </div>
+        <div class="tool-grid">
+          <div class="tool-card"><span class="tool-code">WS</span><div><h3>Wireshark</h3><p>Packet analysis</p></div></div>
+          <div class="tool-card"><span class="tool-code">NM</span><div><h3>Nmap</h3><p>Network discovery</p></div></div>
+          <div class="tool-card"><span class="tool-code">EV</span><div><h3>Event Viewer</h3><p>Windows logs</p></div></div>
+          <div class="tool-card"><span class="tool-code">LX</span><div><h3>Linux CLI</h3><p>System analysis</p></div></div>
+          <div class="tool-card"><span class="tool-code">OS</span><div><h3>OpenSSL</h3><p>Encryption and hashing</p></div></div>
+          <div class="tool-card"><span class="tool-code">VM</span><div><h3>Virtual Lab</h3><p>Safe practice range</p></div></div>
+        </div>
+        <div class="lab-rules">
+          <div><span>01</span><p><strong>Stay in scope.</strong> Use security tools only inside the authorized course lab.</p></div>
+          <div><span>02</span><p><strong>Protect evidence.</strong> Record what you observed before making changes.</p></div>
+          <div><span>03</span><p><strong>Explain your choices.</strong> A working command is not a complete security decision.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-panel">
+        <div>
+          <p class="section-kicker light-kicker">Ready for the first briefing?</p>
+          <h2>Your organization is waiting.</h2>
+          <p>Open Mission 01, meet your analyst team, and begin the security baseline.</p>
+        </div>
+        <a class="button button-light" href="#current-mission">Begin Mission 01 <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M24 3 42 10v13c0 11.2-7.3 18.3-18 22C13.3 41.3 6 34.2 6 23V10L24 3Z" fill="currentColor" opacity=".2"/><path d="M24 7.5 38 13v10c0 8.5-5.1 14.3-14 17.8C15.1 37.3 10 31.5 10 23V13l14-5.5Z" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M17.5 24.5 22 29l9-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="brand-copy"><strong>IT Security</strong><small>Cyber Defense Lab</small></span>
+        </a>
+        <p>Information Technology Security<br>Dual-credit cybersecurity course</p>
+      </div>
+      <div class="footer-links"><h3>Course</h3><a href="#operations">Overview</a><a href="#pathway">Mission Path</a><a href="#portfolio">Portfolio</a></div>
+      <div class="footer-links"><h3>Operations</h3><a href="#current-mission">Current Mission</a><a href="#resources">Cyber Lab</a><a href="#deliverables">Deliverables</a></div>
+      <div class="footer-contact"><h3>Instructor</h3><p>Professor Chi Onabolu</p><p>Course contact information</p><a href="mailto:instructor@example.edu">instructor@example.edu</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span data-year></span> Information Technology Security</span><span>Authorized users only • Learn ethically • Defend responsibly</span></div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
